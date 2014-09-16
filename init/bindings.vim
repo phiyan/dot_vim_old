@@ -18,6 +18,9 @@ set pastetoggle=<F2>
 " Make Y consistent with D and C
 map Y           y$
 
+" JJ for esc
+imap jj <Esc>
+
 " Split screen
 map <leader>v   :vsp<CR>
 

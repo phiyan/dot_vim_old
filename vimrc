@@ -11,3 +11,5 @@ filetype plugin indent on
 for file in split(glob('~/.vim/init/*.vim'), '\n')
   exec 'source' file
 endfor
+
+set guifont=Monaco:h16
